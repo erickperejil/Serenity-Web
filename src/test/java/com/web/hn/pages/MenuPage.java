@@ -9,7 +9,7 @@ public class MenuPage extends PageObject{
     @FindBy(xpath = "//a[@class='bristol fl']")
     public WebElementFacade btn_Ficohsa;
 
-    @FindBy(xpath = "//i[@class='stream-menu_inicio leeds_list_item_link_icon-fill']")
+    @FindBy(xpath = "//nav//li[1]//a[1]")
     public WebElementFacade menu_btn_home;
 
     @FindBy(xpath = "//nav//li[2]//a[1]")
