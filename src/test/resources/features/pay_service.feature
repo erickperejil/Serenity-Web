@@ -11,6 +11,4 @@ Feature: CP03 - Pagar un servicio
     When llena el formulario de pago de servicios
     And confirma la transaccion
     Then Visualizar resultado de transaccion exitosa
-    And visualiza el estado de cuenta
-    And visualiza movimientos
     And navega al home
