@@ -99,12 +99,13 @@
                 <configuration>
                     <includes>
                         <include>**/test/**/*.java</include>
-                        <systemPropertyVariables>
-                            <surefire.security.manager>
-                                java.lan.SecurityManager
-                            </surefire.security.manager>
-                        </systemPropertyVariables>
                     </includes>
+
+                    <systemPropertyVariables>
+                        <surefire.security.manager>
+                            java.lang.SecurityManager
+                        </surefire.security.manager>
+                    </systemPropertyVariables>
                 </configuration>
                 <executions>
                     <execution>
