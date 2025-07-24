@@ -1,4 +1,4 @@
-package com.web.hn;
+package com.web.hn.runners;
 
 import io.cucumber.junit.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
